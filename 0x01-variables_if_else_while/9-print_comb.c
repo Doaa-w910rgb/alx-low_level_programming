@@ -12,10 +12,11 @@ int main(void)
 	while (d < 58)
 	{
 		putchar(d);
-	
+		if (d != 57)
+		{
 			putchar(',');
 			putchar(' ');
-		
+		}
 		d++;
 	}
 	putchar('\n');
