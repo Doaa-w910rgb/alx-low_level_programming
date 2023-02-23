@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * mul - returns of multiplication between two integers
- * @a: frist multiplier
- * @b: second multiplier
+ * mul - returns result of multiplication between 2 integers
+ *@a: first multiplier
+ *@b: second multiplier
  *
- *return: multiplication result
+ * Return: multiplication result
  */
-int mul(int , int b)
+int mul(int a, int b)
 {
 	int result;
 
-	result=a*b;
-	return result;
+	result = a * b;
+	return (result);
 }
